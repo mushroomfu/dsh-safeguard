@@ -1,0 +1,165 @@
+.chipWrap {
+  display: inline-block;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 26px;
+  padding: 0 10px;
+  border: 1px solid var(--dsw-line, rgba(128, 128, 128, 0.35));
+  border-radius: 999px;
+  background: var(--dsw-surface-2, transparent);
+  color: var(--dsw-label-secondary, inherit);
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+}
+
+.chip:hover {
+  border-color: var(--dsw-line-strong, rgba(128, 128, 128, 0.6));
+}
+
+.modeText {
+  font-weight: 600;
+}
+
+.popover {
+  width: 320px;
+  max-height: 420px;
+  overflow: auto;
+  padding: 10px;
+  border: 1px solid var(--dsw-line, rgba(128, 128, 128, 0.35));
+  border-radius: 10px;
+  background: var(--dsw-surface, #1b1b1f);
+  color: var(--dsw-label, inherit);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+}
+
+.modeRow {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.modeButton {
+  border: 1px solid var(--dsw-line, rgba(128, 128, 128, 0.35));
+  border-radius: 999px;
+  background: transparent;
+  color: var(--dsw-label-secondary, inherit);
+  padding: 4px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.modeButtonActive {
+  background: var(--dsw-alias-button-primary-fill, #3b82f6);
+  color: var(--dsw-alias-label-primary-foreground, #fff);
+  border-color: transparent;
+}
+
+.sectionTitle {
+  margin: 8px 0 4px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.65;
+}
+
+.feedList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.feedItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: var(--dsw-surface-2, rgba(255, 255, 255, 0.04));
+  font-size: 12px;
+}
+
+.command {
+  font-family: var(--ds-font-family-code, monospace);
+  word-break: break-all;
+}
+
+.reason {
+  opacity: 0.75;
+}
+
+.tagRow {
+  display: flex;
+  gap: 4px;
+}
+
+.tag {
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.tagSafe {
+  background: rgba(34, 197, 94, 0.16);
+  color: #22c55e;
+}
+
+.tagRisky {
+  background: rgba(245, 158, 11, 0.16);
+  color: #f59e0b;
+}
+
+.tagDangerous {
+  background: rgba(239, 68, 68, 0.16);
+  color: #ef4444;
+}
+
+.pendingActions {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.pendingButton {
+  border: none;
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.approve {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+.decline {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.refresh {
+  border: none;
+  background: transparent;
+  color: var(--dsw-label-secondary, inherit);
+  font-size: 11px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.empty {
+  font-size: 12px;
+  opacity: 0.6;
+}

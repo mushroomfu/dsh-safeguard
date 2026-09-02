@@ -1,0 +1,6 @@
+# Bundle patch: mount dsh-safeguard as a host plugin row for the DSH Web GUI.
+# The judge endpoint (judgeApiBase / judgeModel) is user-specific: configure it
+# in the profile's own cordis.patch.yml as an id-targeted override, not here.
+- insert:
+    - id: ui-safeguard
+      name: dsh-safeguard

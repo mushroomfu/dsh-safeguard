@@ -1,0 +1,5 @@
+﻿node_modules/
+lib/
+debug-config.json
+judge-debug.txt
+*.log
