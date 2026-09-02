@@ -1,7 +1,7 @@
 # AGENTS.md — dsh-safeguard
 
-DSH Web GUI 插件：Codex 风格、模型判定的命令权限守卫。独立仓库，包目录为
-`dsh-safeguard/`。
+DSH Web GUI 插件：Codex 风格、模型判定的命令权限守卫。独立仓库，仓库根目录即
+包根目录（`package.json` / `src/` / `tests/` 平铺在根目录）。
 
 ## 本包要点
 

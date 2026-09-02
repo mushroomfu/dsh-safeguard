@@ -53,7 +53,7 @@ dsh plugin --profile desktop add dsh-safeguard@latest
 
 ```sh
 git clone https://github.com/mushroomfu/dsh-safeguard.git
-cd dsh-safeguard/dsh-safeguard
+cd dsh-safeguard
 pnpm install
 pnpm build
 dsh plugin --profile desktop add link:$(pwd)
