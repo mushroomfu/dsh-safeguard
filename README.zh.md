@@ -90,7 +90,7 @@ dsh plugin --profile desktop add link:$(pwd)
 
 - 守卫是一层**执行前的建议性过滤器**，不是操作系统沙箱；DSH 自带的权限预设
   （`read-only` / `workspace-write` / `danger-full-access`）仍是真正的安全边界。
-- 宿主 API（`/api/command-guard/*`）**仅限 loopback**：这些路由会改变命令被放行的激进程度，
+- 宿主 API（`/api/safeguard/*`）**仅限 loopback**：这些路由会改变命令被放行的激进程度，
   暴露到局域网的部署不得把它们服务给远端浏览器。
 - 模型判定直连可配置端点：拒绝重定向、密钥只读环境变量、响应体封顶；判定失败时不额外放行
   危险命令，剩余命令照常交给沙箱与官方审批。

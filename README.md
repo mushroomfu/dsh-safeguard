@@ -101,7 +101,7 @@ The `mode` is also switchable live from the chip, effective immediately.
 - The guard is an **advisory pre-execution filter**, not an OS sandbox; the DSH
   permission presets (`read-only`, `workspace-write`,
   `danger-full-access`) remain the real security boundary.
-- The host API surface (`/api/command-guard/*`) is **loopback-only**: these
+- The host API surface (`/api/safeguard/*`) is **loopback-only**: these
   routes change how eagerly commands run, so a LAN-exposed deployment must not
   serve them remotely.
 - The model judge calls a configurable endpoint directly: redirects refused, key
