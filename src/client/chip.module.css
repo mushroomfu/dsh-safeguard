@@ -8,10 +8,10 @@
   gap: 6px;
   height: 26px;
   padding: 0 10px;
-  border: 1px solid var(--dsw-line, rgba(128, 128, 128, 0.35));
+  border: 1px solid var(--dsw-alias-border-l2, rgba(128, 128, 128, 0.35));
   border-radius: 999px;
-  background: var(--dsw-surface-2, transparent);
-  color: var(--dsw-label-secondary, inherit);
+  background: var(--dsw-alias-bg-layer-2, transparent);
+  color: var(--dsw-alias-label-secondary, inherit);
   font-size: 12px;
   line-height: 1;
   cursor: pointer;
@@ -19,7 +19,7 @@
 }
 
 .chip:hover {
-  border-color: var(--dsw-line-strong, rgba(128, 128, 128, 0.6));
+  border-color: var(--dsw-alias-border-l4, rgba(128, 128, 128, 0.6));
 }
 
 .modeText {
@@ -31,10 +31,10 @@
   max-height: 420px;
   overflow: auto;
   padding: 10px;
-  border: 1px solid var(--dsw-line, rgba(128, 128, 128, 0.35));
+  border: 1px solid var(--dsw-alias-border-l2, rgba(128, 128, 128, 0.35));
   border-radius: 10px;
-  background: var(--dsw-surface, #1b1b1f);
-  color: var(--dsw-label, inherit);
+  background: var(--dsw-alias-bg-overlay, #fff);
+  color: var(--dsw-alias-label-primary, inherit);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
 }
 
@@ -46,10 +46,10 @@
 }
 
 .modeButton {
-  border: 1px solid var(--dsw-line, rgba(128, 128, 128, 0.35));
+  border: 1px solid var(--dsw-alias-border-l2, rgba(128, 128, 128, 0.35));
   border-radius: 999px;
   background: transparent;
-  color: var(--dsw-label-secondary, inherit);
+  color: var(--dsw-alias-label-secondary, inherit);
   padding: 4px 10px;
   font-size: 12px;
   cursor: pointer;
@@ -81,7 +81,7 @@
   gap: 2px;
   padding: 6px 8px;
   border-radius: 8px;
-  background: var(--dsw-surface-2, rgba(255, 255, 255, 0.04));
+  background: var(--dsw-alias-bg-layer-2, rgba(128, 128, 128, 0.08));
   font-size: 12px;
 }
 
@@ -153,7 +153,7 @@
 .refresh {
   border: none;
   background: transparent;
-  color: var(--dsw-label-secondary, inherit);
+  color: var(--dsw-alias-label-secondary, inherit);
   font-size: 11px;
   cursor: pointer;
   text-decoration: underline;
